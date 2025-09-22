@@ -11,3 +11,20 @@ U - Update (Edit a Book's Details): Next to each book in the list, you can add a
 D - Delete (Remove a Book): Also next to each book, you can add a "Delete" button. When you click it, your PHP code will remove that book's data from the database. It's a good practice to add a confirmation message before deleting to prevent mistakes.
 
 This project idea covers all the CRUD requirements and gives you a clear roadmap to start building.
+
+Technologies Used
+
+- Backend:PHP
+-Database:MySQL
+-Frontend:HTML, CSS
+
+Installation
+
+To run this project on your local machine, you will need a local server environment like XAMPP or WAMP.
+
+1. Clone the repository or download the project files.
+2. Import the database file (`.sql`)** into your MySQL database using phpMyAdmin or a similar tool.
+3. Update the database connection settings** in the `Connect-db.php` filewith your local database credentials (username, password, and database name).
+4. Place the project folder inside your local server's root directory (`htdocs` for XAMPP, `www` for WAMP).
+5. Open your web browser and navigate to `http://localhost/crud`.
+
